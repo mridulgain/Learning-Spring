@@ -1,22 +1,22 @@
 # Learning and getting accustomed with Spring 
 ###### Winter Vacation December,2018
-  + Concepts and technology learnt
-    - Revisited J2EE
-      + Servlet
-      + JDBC
-      + JSP
-    - Database used
-      + PostGresql
-      + Mongo db
-    - Introduction to microservice builder 
-      + Spring framework
-      + Spring JDBC
-      + Spring MVC
-      + Restful web service using spring mvc
-    - client side programming
-      + JS, jQuery, Ajax
+### Concepts and technology learnt/revised
+  - J2EE
+    + Servlet
+    + JDBC
+    + JSP
+  - Database used
+    + PostGresql
+    + Mongo db
+  - Introduction to microservice builder 
+    + Spring framework
+    + Spring JDBC
+    + Spring MVC
+    + Restful web service using spring mvc
+  - client side programming
+    + JS, jQuery, Ajax
 
-## Hands on projects
+### Hands on projects/examples
   + firstspring *(spring project)*
     - understood how IoC is being achieved using DI in spring framework
     - got concept of spring beans
@@ -44,7 +44,7 @@
     - on the 2nd itreration the project was converted into a restful service
     - did client side programming (using jQuery and Ajax) to make API request and responses.
     - learnt about CORS.
-    - **Future work plan**
-      + Adding bulk insertion feature (currently batch insertion is supported which may fail in case of large ammount of data insertion)
-      + DAO can be more structured (adding service layer may be helpful ! )
-      + Naming convention
+### Future work plan
+   + Adding bulk insertion feature (currently batch insertion is supported which may fail in case of large ammount of data insertion)
+   + DAO can be more structured (adding service layer may be helpful ! )
+   + Better naming convention
