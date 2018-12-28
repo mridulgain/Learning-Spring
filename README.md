@@ -1,2 +1,2 @@
 # Learning-Spring
-# + Winter internship
+* Winter internship
