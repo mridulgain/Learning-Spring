@@ -44,6 +44,7 @@
     - on the 2nd itreration the project was converted into a restful service
     - did client side programming (using jQuery and Ajax) to make API request and responses.
     - learnt about CORS.
+    - final submission (upload module for data saved in excel)
 ### Future work plan
    + Adding bulk insertion feature (currently batch insertion is supported which may fail in case of large ammount of data insertion)
    + DAO can be more structured (adding service layer may be helpful ! )
