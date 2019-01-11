@@ -1,0 +1,84 @@
+kmanohar@etranssolutions.com
+subhransu@etranssolutions.com
+Adding spring to Eclipse : https://www.tech-recipes.com/rx/39267/install-spring-plugin-in-eclipse/
+
+try : maven/gradel
+
+Adding spring to eclipse : https://stackoverflow.com/questions/19342463/how-to-add-spring-functionality-to-eclipse
+
+########################	work with databases
+
+postgresql : https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
+user setup : https://medium.com/coding-blocks/creating-user-database-and-adding-access-on-postgresql-8bfcd2f4a91e
+
+login as postgres : sudo su - postgres 
+$psql			(starts postgres)
+commands:
+<username>=# \l (lists all db)
+<username>=# \c <db name>	(selecting a particular db)
+<dbname>=# \dt 				(show all tables in that db)
+
+\?			
+\conninfo
+\q
+
+
+
+mongodb : https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+starting mongodb : sudo service mongod start
+open mongodb : mongo
+commands :
+> show dbs
+> use <dbname>                     (if db with given name is not present it will be created)
+> show collections
+> db.createCollection("testCollection");
+> db.testCollection.drop();
+
+########################		work with excel file
+
+excel file read in java : https://www.callicoder.com/java-read-excel-file-apache-poi/
+
+########################	Work with Spring framework
+
+terminologies : pojo(plain old java object)
+				Ioc(inversion of control)
+				DI(dependency inection)
+				mvc(model view controller)
+stydy mat : 
+			hello world prog : https://www.tutorialspoint.com/spring/spring_hello_world_example.htm
+			hello world explaination : https://www.java4s.com/spring/spring-hello-world-setter-injection-with-primitive-values/
+			bean : https://www.baeldung.com/spring-bean
+			intro ioc & di : https://stackoverflow.com/questions/9403155/what-is-dependency-injection-and-inversion-of-control-in-spring-framework
+			constructor based dependency injection : https://www.tutorialspoint.com/spring/constructor_based_dependency_injection.htm
+study topics : spring-architecture
+
+core container : 
+bean configuration : 
+xml based
+annotation based
+java based
+########################	 workinh with Spring mvc framework
+
+study mat :
+			hello world : https://viralpatel.net/blogs/spring-3-mvc-create-hello-world-application-spring-3-mvc/
+			a better example with form : https://www.journaldev.com/14476/spring-mvc-example
+			
+annotation based bean config :
+			@Controller
+			@RequestMapping
+			@ModelAttribute   (related topic : form:form jstl tag)
+			@Component
+			@Repository
+			@Service
+			comparison between component repo & service annotation  : https://stackoverflow.com/questions/6827752/whats-the-difference-between-component-repository-service-annotations-in
+			
+			mvc example with form manipulation : https://dzone.com/articles/spring-mvc-example-for-user-registration-and-login-1
+			datasource addition in the context :	https://www.journaldev.com/2593/spring-jdbc-example
+													https://www.javatpoint.com/spring-mvc-crud-example
+			MVC CRUD(create, read, update, delete)
+########################		building RESTful web service using spring
+
+study mat :
+			example : https://dzone.com/articles/build-rest-web-service-using-spring
+			example2 : http://javaonlineguide.net/2015/07/spring-4-mvc-restful-webservice-example-without-maven.html
